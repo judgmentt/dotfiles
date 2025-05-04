@@ -6,7 +6,7 @@ height=1050
 
 backgroundColour="black"
 
-wallpaper="backgrounds/CURRENTWALLPAPER"
+wallpaper="background/CURRENTWALLPAPER"
 
 # Whether to scale the image to fit on the screen, might leave some blank spaces
 # will scale and crop the wallpaper if left false
@@ -47,7 +47,7 @@ accentColour="#a7d9ea"
 skipToLogin=false
 
 # Supports Markdown formatting, leave empty to not display any text
-greeting="Welcome back!"
+greeting="Welcome back Judgment!"
 
 # Adjusts the font size for the greeting message, clock and date
 fontSizeMultiplier=2
