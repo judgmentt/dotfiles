@@ -1,4 +1,4 @@
-# This is my main bashrx configuration file
+
 # -----------------------------------------------------
 # AUTOSTART
 # -----------------------------------------------------
@@ -7,7 +7,7 @@
 # Fastfetch
 # -----------------------------------------------------
 if [[ $(tty) == *"pts"* ]]; then
-    fastfetch --config examples/15
+    fastfetch --config examples/16
 else
     echo
     if [ -f /bin/hyprctl ]; then
