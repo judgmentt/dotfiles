@@ -19,3 +19,9 @@ return {
     todo_comments.setup()
   end,
 }
+
+-- Examples:
+-- TODO: ADD Better comment here
+-- HACK:
+-- BUG:
+-- FIX:
