@@ -1,6 +1,16 @@
+# This is my main bashrx configuration file
 # -----------------------------------------------------
 # AUTOSTART
 # -----------------------------------------------------
 
-# This will be my main configuration file.
-
+# -----------------------------------------------------
+# Fastfetch
+# -----------------------------------------------------
+if [[ $(tty) == *"pts"* ]]; then
+    fastfetch --config examples/15
+else
+    echo
+    if [ -f /bin/hyprctl ]; then
+        echo "Start Hyprland with command Hyprland"
+    fi
+fi
