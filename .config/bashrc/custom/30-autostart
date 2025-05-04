@@ -7,7 +7,7 @@
 # Fastfetch
 # -----------------------------------------------------
 if [[ $(tty) == *"pts"* ]]; then
-    fastfetch --config examples/16
+    fastfetch --config /home/judgment/dotfiles/.config/fastfetch/config.jsonc
 else
     echo
     if [ -f /bin/hyprctl ]; then
